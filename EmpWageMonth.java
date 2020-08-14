@@ -12,9 +12,11 @@ public static final int NUM_OF_WORKING_DAYS=2;
 		int empWage=0;
 		int totalEmpWage=0;
 	           //computation
-		for(int day=0;day<NUM_OF_WORKING_DAYS;day++){
+		for(int day=0;day<NUM_OF_WORKING_DAYS;day++)
+	   {
 		int empCheck=(int)(Math.random()*10)%3;
-		switch(empCheck){
+		switch(empCheck)
+	      {
 		case IS_PART_TIME:
 			empHrs=4;
 			break;
@@ -23,7 +25,7 @@ public static final int NUM_OF_WORKING_DAYS=2;
 			break;
 		default:
 			empHrs=0;
-	}
+	       }
 		empWage=empHrs*EMP_RATE_PER_HOUR;
 		totalEmpWage+=empWage;
 		System.out.println("Emp Wage="+empWage);
