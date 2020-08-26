@@ -37,4 +37,4 @@ public static final int MAX_HRS_IN_MONTH=10;
 		System.out.println("Total Emp Wage="+totalEmpWage);	
 
 }
-
+ 
